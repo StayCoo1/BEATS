@@ -1,0 +1,17 @@
+$red: #E01F3D;
+$hover_red: #CA1B36;
+
+.button {
+  padding: 18px 40px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $red;
+  border-radius: 50px;
+  font-weight: bold;
+  line-height: 18px;
+  
+  &:hover {
+    background-color: $hover_red;
+  }
+}

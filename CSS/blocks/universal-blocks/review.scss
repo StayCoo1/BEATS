@@ -1,0 +1,35 @@
+.review {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f8faf9;
+
+  .review__avatar {
+    max-width: 253px;
+    margin: 40px;
+  }
+
+  .review__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+
+    .review__content-title {
+      font-style: 24px;
+      font-weight: bold;
+      margin-bottom: 25px;
+
+    }
+
+    .review__content-desc {
+      margin-right: 100px;
+      margin-bottom: 40px;
+      color: #666;
+    }
+
+    .review__content-username {
+      font-size: 18px;
+      color: #292929;
+      font-weight: 700;
+    }
+  }
+}

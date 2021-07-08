@@ -1,0 +1,38 @@
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #f8faf9;
+}
+.review .review__avatar {
+  max-width: 253px;
+  margin: 40px;
+}
+.review .review__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 75px;
+}
+.review .review__content .review__content-title {
+  font-style: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.review .review__content .review__content-desc {
+  margin-right: 100px;
+  margin-bottom: 40px;
+  color: #666;
+}
+.review .review__content .review__content-username {
+  font-size: 18px;
+  color: #292929;
+  font-weight: 700;
+}
