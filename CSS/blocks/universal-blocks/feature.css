@@ -21,14 +21,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 128px;
-  min-height: 128px;
+  width: 128px;
+  height: 128px;
   background-color: #f2f5f4;
   border-radius: 50%;
 }
-.feature .feature__preview .feature__preview-img {
-  max-width: 68px;
-  max-height: 68px;
+.feature .feature__preview img {
+  display: block;
+  height: 68px;
 }
 .feature .feature__content {
   display: -webkit-box;

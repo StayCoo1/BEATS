@@ -1,7 +1,13 @@
+$red: #e01f3d;
+$grey: #666;
+$black: #292929;
+$white: #fff;
+$containerWidth: 1100px;
+
 // Layout & fonts
+@import url('../layout/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap');
-@import url('../layout/normalize.css');
 @import url('../layout/base.css');
 
 //Blocks
@@ -9,8 +15,11 @@
 @import url('../blocks/universal-blocks/title.css');
 @import url('../blocks/universal-blocks/feature.css');
 @import url('../blocks/universal-blocks/review.css');
+@import url('../blocks/universal-blocks/form.css');
+@import url('../blocks/universal-blocks/radio.css');
+@import url('../blocks/universal-blocks/fixed-menu.css');
 
 @import url('../blocks/hero/hero.css');
 @import url('../blocks/about/about.css');
-@import url('../blocks/reviews/reviews.css');
-
+@import url('../blocks/feedbacks/feedbacks.css');
+@import url('../blocks/order/order.css');

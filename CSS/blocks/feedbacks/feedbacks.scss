@@ -1,0 +1,39 @@
+.feedbacks {
+  min-height: 650px;
+
+  .feedbacks__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+
+    .feedbacks__review {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .feedbacks__avatars-list {
+      display: flex;
+      margin-bottom: 20px;
+
+      .feedbacks__avatars-item {
+        width: 74px;
+        height: 74px;
+        margin-right: 6px;
+        border-radius: 100%;
+        overflow: hidden;
+        background-size: cover;
+        cursor: pointer;
+        
+        &:last-child {
+          margin-right: 0px;
+        }
+        
+        .feedbacks__avatars-img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

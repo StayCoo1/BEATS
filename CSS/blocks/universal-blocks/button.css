@@ -7,7 +7,18 @@
   border-radius: 50px;
   font-weight: bold;
   line-height: 18px;
+  border: none;
 }
 .button:hover {
   background-color: #CA1B36;
+}
+
+.button_transparent {
+  background-color: transparent;
+  font-weight: normal;
+  text-transform: none;
+}
+.button_transparent:hover {
+  background-color: inherit;
+  color: #E01F3D;
 }

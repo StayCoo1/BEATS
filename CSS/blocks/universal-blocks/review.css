@@ -34,5 +34,6 @@
 .review .review__content .review__content-username {
   font-size: 18px;
   color: #292929;
-  font-weight: 700;
+  font-weight: bold;
+  margin-bottom: 20px;
 }

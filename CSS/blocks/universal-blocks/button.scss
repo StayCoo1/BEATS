@@ -10,8 +10,20 @@ $hover_red: #CA1B36;
   border-radius: 50px;
   font-weight: bold;
   line-height: 18px;
+  border: none;
   
   &:hover {
     background-color: $hover_red;
+  }
+}
+
+.button_transparent {
+  background-color: transparent;
+  font-weight: normal;
+  text-transform: none;
+
+  &:hover {
+    background-color: inherit;
+    color: $red;
   }
 }

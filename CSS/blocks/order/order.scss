@@ -1,0 +1,17 @@
+.order {
+  background: url('../../../Content/order/cta.svg') center bottom no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-width: 650px;
+
+  .order__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .order__title {
+      margin-top: 70px;
+      margin-bottom: 60px;
+    }
+  }
+}

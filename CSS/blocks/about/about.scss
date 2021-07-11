@@ -1,12 +1,8 @@
-$red: #e01f3d;
-$grey: #666;
-$black: #292929;
-$white: #fff;
-
 .about {
+  min-height: 650px;
+  padding-top: 100px;
 
-  .about__section {
-    margin: 100px 80px 90px;
+  .about__container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,14 +12,11 @@ $white: #fff;
       flex-direction: column;
       align-items: center;
       margin-bottom: 60px;
-
-      .about__preview-title {
-        margin-bottom: 20px;
-      }
+      max-width: 65%;
 
       .about__preview-desc {
-        max-width: 60%;
         text-align: center;
+        padding: 0px 30px;
       }
     }
 
@@ -33,11 +26,28 @@ $white: #fff;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        
-        .about__feature {
-          max-width: calc(100% / 3 - 37px)
-        }
 
+        .about__feature {
+          flex: 1;
+          position: relative;
+          max-width: calc(100% / 3 - 36px);
+          margin-bottom: 20px;
+
+          &:before {
+            content: url("../../../Content/about/shape.svg");
+            position: absolute;
+            top: 65px;
+            right: -90px;
+            transform: translate(-50%, -50%);
+
+          }
+
+          &:last-child {
+            &::before {
+              content: "";
+            }
+          }
+        }
       }
     }
   }

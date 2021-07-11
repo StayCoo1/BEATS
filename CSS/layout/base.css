@@ -3,48 +3,24 @@ html, body {
 }
 
 body {
-  color: #292929;
   font-size: 16px;
-  font-style: normal;
-  background: #fff;
-  font-weight: 400;
   font-family: "Play", Arial, sans-serif;
+  line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 .wrapper {
+  position: relative;
+  min-width: 960px;
   min-height: 100%;
-  min-width: 1100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.wrapper__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  overflow: hidden;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin: 0 auto;
-  width: 1100px;
+  width: 940px;
 }
 
 * {
@@ -59,10 +35,9 @@ a {
 }
 
 ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
-
 ul li {
   list-style: none;
 }
@@ -79,5 +54,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  padding: 0;
   margin: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
 }
