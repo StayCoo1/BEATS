@@ -5,10 +5,10 @@ $white: #fff;
 $containerWidth: 1100px;
 
 // Layout & fonts
-@import url('../layout/normalize.css');
+@import url('./normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap');
-@import url('../layout/base.css');
+@import url('./base.css');
 
 //Blocks
 @import url('../blocks/universal-blocks/button.css');
