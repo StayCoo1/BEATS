@@ -1037,7 +1037,7 @@ h2 {
 }
 
 .order {
-  background: url("../../../Content/order/cta.svg") center bottom no-repeat;
+  background: url("../../Content/order/cta.png") center bottom no-repeat;
   background-size: cover;
   color: #fff;
 }
