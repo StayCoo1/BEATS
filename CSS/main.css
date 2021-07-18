@@ -740,7 +740,7 @@ footer {
   border-radius: 0;
 }
 .radio_checkbox > .radio__visible:before {
-  background: url("../../../Content/order/checkmark.svg") center center no-repeat;
+  background: url("../Content/order/checkmark.svg") center center no-repeat;
 }
 
 .social {
@@ -1037,7 +1037,7 @@ h2 {
 }
 
 .order {
-  background: url("../../Content/order/cta.png") center bottom no-repeat;
+  background: url("../Content/order/cta.png") center bottom no-repeat;
   background-size: cover;
   color: #fff;
 }
