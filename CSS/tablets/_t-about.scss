@@ -1,0 +1,22 @@
+.about__container {
+  @include tablets {
+  }
+}
+
+.about__preview {
+  @include tablets {
+    max-width: 80%;
+  }
+}
+
+.about__feature:before {
+  @include tablets {
+    content: none;
+  }
+}
+
+.about__feature {
+  @include tablets {
+    max-width: 33%;
+  }
+}

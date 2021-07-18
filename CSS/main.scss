@@ -1,0 +1,59 @@
+//Variables
+$containerWidth: 940px;
+$red: #e01f3d;
+$hover_red: #CA1B36;
+$grey: #666;
+$black: #292929;
+$white: #fff;
+
+//Breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+
+
+// Layout & fonts
+@import "./media";
+@import "./layout/normalize";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import "./layout/base";
+
+//Universal Blocks
+@import "./blocks/universal-blocks/button";
+@import "./blocks/universal-blocks/contacts";
+@import "./blocks/universal-blocks/feature";
+@import "./blocks/universal-blocks/fixed-menu";
+@import "./blocks/universal-blocks/mobile-menu";
+@import "./blocks/universal-blocks/form";
+@import "./blocks/universal-blocks/menu";
+@import "./blocks/universal-blocks/review";
+@import "./blocks/universal-blocks/radio";
+@import "./blocks/universal-blocks/social";
+@import "./blocks/universal-blocks/title";
+
+// Hidden
+@import "./blocks/universal-blocks/hidden";
+
+//Sections
+@import "./blocks/hero";
+@import "./blocks/about";
+@import "./blocks/feedbacks";
+@import "./blocks/order";
+@import "./blocks/map";
+@import "./blocks/footer";
+
+//Tablets
+@import "./tablets/t-hero";
+@import "./tablets/t-about";
+@import "./tablets/t-feedbacks";
+@import "./tablets/t-order";
+@import "./tablets/t-map";
+@import "./tablets/t-footer";
+
+//Phones
+@import "./phones/p-hero";
+@import "./phones/p-about";
+@import "./phones/p-feedbacks";
+@import "./phones/p-order";
+@import "./phones/p-footer";

@@ -1,0 +1,12 @@
+.feedbacks__container {
+  @include phones {
+    justify-content: space-evenly;
+  }
+}
+
+.feedbacks__avatars-item {
+  @include phones {
+    width: 64px;
+    height: 64px;
+  }
+}

@@ -1,0 +1,49 @@
+.menu, .header__contacts, .hero__features {
+  @include phones {
+    display: none;
+  }
+}
+
+.hero__content {
+  @include phones {
+    justify-content: flex-start;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+  }
+}
+
+.hero__content-wrap {
+  @include phones {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+  }
+}
+
+.hero__title {
+  @include phones {
+    padding: 0 15%;
+    font-size: 32px;
+  }
+}
+
+.hero__desc {
+  @include phones {
+    padding: 0 15%;
+  }
+}
+
+.hero__desc > p {
+  @include phones {
+    font-size: 18px;
+  }
+}
+
+.hero__content-preview {
+  @include phones {
+    min-width: 250px;
+    max-width: 323px;
+  }
+}

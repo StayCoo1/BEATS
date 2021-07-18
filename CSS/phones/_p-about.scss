@@ -1,0 +1,90 @@
+.about__container {
+  @include phones
+   {
+    max-width: 95%;
+  }
+}
+
+.about__preview {
+  @include phones
+   {
+    min-width: 100%;
+  }
+}
+
+.about__preview-title {
+  @include phones
+   {
+     font-size: 32px;
+  }
+}
+
+.about__preview-desc {
+  @include phones
+   {
+    padding: 0 5%;
+    font-size: 16px;
+  }
+}
+
+.about__feature:before {
+  @include phones
+   {
+    content: none;
+  }
+}
+
+.about__features-list {
+  @include phones
+   {
+    flex-direction: column;
+  }
+}
+
+.about__feature {
+  @include phones
+   {
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+.feature__preview {
+  @include phones {
+    margin-bottom: 0;
+  }
+}
+
+.feature__content {
+  @include phones {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+.feature__content-title {
+  @include phones {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+
+.feature__content-desc {
+  @include phones {
+    margin: 0;
+  }
+}
+
+.feature__content-desc>p {
+  @include phones{
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+

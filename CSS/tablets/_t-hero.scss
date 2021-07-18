@@ -1,0 +1,47 @@
+.menu, .header__contacts, .hero__features {
+  @include tablets {
+    display: none;
+  }
+}
+
+.hero:after {
+  @include tablets {
+    background-color: #858585;
+  }
+}
+
+.hero__content {
+  @include tablets {
+    justify-content: flex-start;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+  }
+}
+
+.hero__content-wrap {
+  @include tablets {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+
+.hero__title {
+  @include tablets {
+    padding: 0 10%;
+  }
+}
+
+.hero__desc {
+  @include tablets {
+    padding: 0 20%;
+  }
+}
+
+.hero__content-preview {
+  @include tablets {
+    max-width: 50%;
+    min-width: 323px;
+    }
+}

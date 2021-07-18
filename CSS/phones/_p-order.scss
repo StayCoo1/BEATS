@@ -1,0 +1,30 @@
+.footer__container {
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.footer__col {
+  @include phones {
+    margin: 10px 0;
+  }
+}
+
+.order__container {
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.order__form {
+  @include phones {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.form__controls {
+  @include phones {
+    justify-content: center;
+  }
+}

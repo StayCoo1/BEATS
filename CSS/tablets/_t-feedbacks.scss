@@ -1,0 +1,47 @@
+.feedbacks__review {
+  @include tablets {
+    flex-direction: column;
+  }
+}
+
+.feedbacks__review:before {
+  @include tablets {
+    content: none;
+  }
+}
+
+.review__avatar {
+  @include tablets {
+    min-width: 130px;
+    min-height: 130px;
+  }
+}
+
+.review__content {
+  @include tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.review__content-title {
+  @include tablets {
+    font-size: 24px;
+  }
+}
+
+.review__content-desc {
+  @include tablets {
+    margin-right: 0;
+    font-size: 16px;
+    padding: 0 3%;
+  }
+}
+
+.review__content-username {
+  @include tablets {
+    font-size: 18px;
+  }
+}

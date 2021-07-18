@@ -1,0 +1,55 @@
+.order__title {
+  @include tablets {
+    margin: 20px auto;
+  }
+}
+
+.form {
+  @include tablets {
+    flex-direction: column;
+    padding: 0 18%;
+  }
+}
+
+.form__title {
+  @include tablets {
+    font-size: 16px;
+  }
+}
+
+.form__col {
+  @include tablets {
+    margin: 0
+  }
+}
+
+.form__input {
+  @include tablets {
+    max-height: 36px;
+  }
+}
+
+.form__buttons {
+  justify-content: center;
+  @include tablets {
+    margin: 1rem 0;
+  }
+}
+
+.form__input_textarea {
+  @include tablets {
+    height: 6rem;
+  }
+}
+
+.button_transparent {
+  @include tablets {
+    color: $red;
+  }
+}
+
+.radio__title {
+  @include tablets {
+    font-size: 16px;
+  }
+}

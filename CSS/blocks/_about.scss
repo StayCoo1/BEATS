@@ -1,0 +1,58 @@
+.about {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: -18px;
+    width: 0;
+    height: 0;
+    border-width: 35px 17px 0 17px;
+    border-color: $red transparent transparent transparent;
+    border-style: solid;
+    transform: rotate(45deg);
+  }
+}
+
+.about__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__preview {
+  margin-bottom: 3.75rem;
+  max-width: 65%;
+}
+
+.about__preview-desc {
+  text-align: center;
+  padding: 0rem 2rem;
+}
+
+.about__features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__feature {
+  position: relative;
+  max-width: calc(100% / 3 - 2rem);
+  margin-bottom: 1.25rem;
+
+  &:before {
+    content: url("../../../Content/about/shape.svg");
+    position: absolute;
+    top: 4.2rem;
+    right: -5.75rem;
+    transform: translate(-50%, -50%);
+  }
+
+  &:last-child {
+    &:before {
+      content: none;
+    }
+  }
+}
