@@ -31,6 +31,8 @@ $phones: 480px;
 @import "./blocks/universal-blocks/radio";
 @import "./blocks/universal-blocks/social";
 @import "./blocks/universal-blocks/title";
+@import "./blocks/universal-blocks/overlay";
+@import "./blocks/universal-blocks/options-hover";
 
 // Hidden
 @import "./blocks/universal-blocks/hidden";
@@ -42,6 +44,7 @@ $phones: 480px;
 @import "./blocks/order";
 @import "./blocks/map";
 @import "./blocks/footer";
+@import "./blocks/slider";
 
 //Tablets
 @import "./tablets/t-hero";
@@ -50,6 +53,7 @@ $phones: 480px;
 @import "./tablets/t-order";
 @import "./tablets/t-map";
 @import "./tablets/t-footer";
+@import "./tablets/t-slider";
 
 //Phones
 @import "./phones/p-hero";

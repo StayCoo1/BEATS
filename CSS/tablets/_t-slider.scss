@@ -1,0 +1,57 @@
+@include tablets {
+
+  .slider {
+    min-height: none;
+  }
+
+  .slider__container {
+    max-height: 100vh;
+  }
+
+  .slider__preview {
+    margin-bottom: 2rem;
+  }
+
+  .slider__about {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .slider__options {
+      display: none;
+    }
+
+  .slider__title {
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .slider__desc {
+    width: 100%;
+  }
+  
+  .slider__desc-text {
+    font-size: 1.143rem;
+    text-align: center;
+  }
+
+  .slider__desc-list {
+    justify-content: center;
+    padding-left: 20%;
+  }
+
+  .desc__order {
+    justify-content: center;
+  }
+  
+  .desc__order-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .slider__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

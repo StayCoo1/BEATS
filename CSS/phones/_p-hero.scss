@@ -4,6 +4,12 @@
   }
 }
 
+.overlay__menu {
+  @include phones {
+    display: block;
+  }
+}
+
 .hero__content {
   @include phones {
     justify-content: flex-start;

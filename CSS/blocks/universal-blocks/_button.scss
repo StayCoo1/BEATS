@@ -10,8 +10,8 @@
   border: none;
 
   @include phones {
-    font-size: 19px;
-    padding: 21px 36px;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
   }
   
   &:hover {

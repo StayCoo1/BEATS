@@ -46,7 +46,7 @@
               </li>
             </ul>
           </nav>
-          <a href="" class="mobile-menu">
+          <a href="javascript:void(0)" class="mobile-menu" onclick="openNav()">
             <span class="mobile-menu_plank"></span>
             <span class="mobile-menu_plank"></span>
             <span class="mobile-menu_plank"></span>
@@ -113,7 +113,10 @@
           <ul class="about__features-list">
             <li class="feature about__feature">
               <div class="feature__preview">
-                <img src="./Content/feature/feat-1.svg" alt="battery" class="feature__preview-img">
+                <svg class="feat-icon">
+                  <use xlink:href="./Content/feature/feature-sprite.svg#feat-1"></use>
+                </svg>
+                <!-- <img src="./Content/feature/feat-1.svg" alt="battery" class="feature__preview-img"> -->
               </div>
               <div class="feature__content">
                 <h3 class="feature__content-title">40 часов работы</h3>
@@ -126,7 +129,10 @@
             </li>
             <li class="feature about__feature">
               <div class="feature__preview">
-                <img src="./Content/feature/feat-2.svg" alt="speaker" class="feature__preview-img">
+                <svg class="feat-icon">
+                  <use xlink:href="./Content/feature/feature-sprite.svg#feat-2"></use>
+                </svg>
+                <!-- <img src="./Content/feature/feat-2.svg" alt="speaker" class="feature__preview-img"> -->
               </div>
               <div class="feature__content">
                 <h3 class="feature__content-title">Фирменное звучание</h3>
@@ -140,7 +146,10 @@
             </li>
             <li class="feature about__feature">
               <div class="feature__preview">
-                <img src="./Content/feature/feat-3.svg" alt="speed" class="feature__preview-img">
+                <svg class="feat-icon">
+                  <use xlink:href="./Content/feature/feature-sprite.svg#feat-3"></use>
+                </svg>
+                <!-- <img src="./Content/feature/feat-3.svg" alt="speed" class="feature__preview-img"> -->
               </div>
               <div class="feature__content">
                 <h3 class="feature__content-title">Быстрая зарядка</h3>
@@ -156,48 +165,143 @@
       </div>
     </section>
     <!-- <section class="section shop">
-    </section>
-    <section class="section team">
-    </section>
-    <section class="section slider">
     </section> -->
-    <section class="section feedbacks">
-      <div class="container feedbacks__container">
-          <h2 class="title">Отзывы</h2>
-          <div class="review feedbacks__review">
-            <div class="review__avatar">
-              <img src="./Content/feedbacks/avatar_1.svg" alt="avatar">
-            </div>
-            <div class="review__content">
-              <h3 class="review__content-title">Отличный звук</h3>
-              <div class="review__content-desc">
-                <p>
-                  Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
-                  компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
-                  всегда
-                  под рукой. Это приятно и удобно.
-                </p>
+    <!-- <section class="section team">
+    </section> -->
+    <section class="section slider">
+      <div class="container slider__container">
+        <div class="slider__left-arrow">
+          <div class="left-arrow">
+            <img src="../../Content/slider/left.svg" alt="" class="slider__arrow">
+          </div>
+        </div>
+        <div class="slider__content">
+          <div class="slider__preview">
+            <img src="../../Content/slider/slider1.svg" alt="" class="slider__preview-img">
+          </div>
+          <div class="slider__about">
+            <div class="slider__options">
+              <div class="slider__options-gear">
+                <img src="../../Content/slider/click.svg" alt="" class="slider__options-img">
               </div>
-              <div class="review__content-username">Билли Айлиш</div>
+              <div class="slider__options-hover">
+                <ul class="slider__options-list">
+                  <li class="slider__options-item">
+                    <div class="option-desc">
+                      <svg class="option-icon">
+                        <use xlink:href="./Content/slider/slider-sprite.svg#bluetooth"></use>
+                      </svg>
+                      <span>Bluetooth</span>
+                    </div>
+                    <div class="option-value">4.0</div>
+                  </li>
+                  <li class="slider__options-item">
+                    <div class="option-desc">
+                      <svg class="option-icon">
+                        <use xlink:href="./Content/slider/slider-sprite.svg#range"></use>
+                      </svg>
+                      <span>Дальность</span>
+                    </div>
+                    <div class="option-value">12 м</div>
+                  </li>
+                  <li class="slider__options-item">
+                    <div class="option-desc">
+                      <svg class="option-icon">
+                        <use xlink:href="./Content/slider/slider-sprite.svg#charge"></use>
+                      </svg>
+                      <span>Зарядка</span>
+                    </div>
+                    <div class="option-value">3 ч</div>
+                  </li>
+                  <li class="slider__options-item">
+                    <div class="option-desc">
+                      <svg class="option-icon">
+                        <use xlink:href="./Content/slider/slider-sprite.svg#weight"></use>
+                      </svg>
+                      <span>Вес</span>
+                    </div>
+                    <div class="option-value">215 гр</div>
+                  </li>
+                  <li class="slider__options-item">
+                    <div class="option-desc">
+                      <svg class="option-icon">
+                        <use xlink:href="./Content/slider/slider-sprite.svg#warranty"></use>
+                      </svg>
+                      <span>Гарантия</span>
+                    </div>
+                    <div class="option-value">1 год</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="title slider__title">beats solo 3. цвет 
+              «атласное серебро»</h3>
+            <div class="slider__desc">
+              <div class="slider__desc-text">
+                <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
+                  iPhone — они мгновенно подключатся к нему.</p>
+              </div>
+              <ul class="slider__desc-list">
+                <li class="slider__desc-item">
+                  <span class="slider__desc-span">Зарядка</span>
+                  <span class="slider__desc-span_bold">2 часа</span>
+                </li>
+                <li class="slider__desc-item">
+                  <span class="slider__desc-span">Вес</span>
+                  <span class="slider__desc-span_bold">215 грамм</span>
+                </li>
+              </ul>
+              <div class="desc__order">
+                <div class="desc__order-price">14 990 ₽</div>
+                <a href="#" class="button slider__button">Заказать</a>
+              </div>
             </div>
           </div>
-          <ul class="feedbacks__avatars-list">
-            <li class="feedbacks__avatars-item feedbacks__avatars-item_active">
-              <a href="#" class="feedbacks__avatars-link">
-                <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
-              </a>
-            </li>
-            <li class="feedbacks__avatars-item">
-              <a href="#" class="feedbacks__avatars-link">
-                <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
-              </a>
-            </li>
-            <li class="feedbacks__avatars-item">
-              <a href="#" class="feedbacks__avatars-link">
-                <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
-              </a>
-            </li>
-          </ul>
+        </div>
+        <div class="slider__right-arrow">
+          <div class="right-arrow">
+            <img src="../../Content/slider/right.svg" alt="" class="slider__arrow">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section feedbacks">
+      <div class="container feedbacks__container">
+        <h2 class="title">Отзывы</h2>
+        <div class="review feedbacks__review">
+          <div class="review__avatar">
+            <img src="./Content/feedbacks/avatar_1.svg" alt="avatar">
+          </div>
+          <div class="review__content">
+            <h3 class="review__content-title">Отличный звук</h3>
+            <div class="review__content-desc">
+              <p>
+                Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
+                компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
+                всегда
+                под рукой. Это приятно и удобно.
+              </p>
+            </div>
+            <div class="review__content-username">Билли Айлиш</div>
+          </div>
+        </div>
+        <ul class="feedbacks__avatars-list">
+          <li class="feedbacks__avatars-item feedbacks__avatars-item_active">
+            <a href="#" class="feedbacks__avatars-link">
+              <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
+            </a>
+          </li>
+          <li class="feedbacks__avatars-item">
+            <a href="#" class="feedbacks__avatars-link">
+              <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
+            </a>
+          </li>
+          <li class="feedbacks__avatars-item">
+            <a href="#" class="feedbacks__avatars-link">
+              <img src="./Content/feedbacks/avatar_1.svg " alt="avatar-small" class="feedbacks__avatars-img">
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- <section class="section video">
@@ -318,6 +422,7 @@
         </div>
       </div>
     </footer>
+
   </div>
   <nav class="fixed-menu">
     <ul class="fixed-menu__list">
@@ -348,8 +453,41 @@
       <li class="fixed-menu__item">
         <a href="" class="fixed-menu__link"></a>
       </li>
-      </ul>
+    </ul>
   </nav>
+  <div id="nav" class="overlay">
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">
+      <svg class="close-icon">
+        <use xlink:href="./Content/hero/hero-sprite.svg#close"></use>
+      </svg>
+    </a>
+    <nav class="menu overlay__menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">О нас</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Наушники</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Команда</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Цвета</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Отзывы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Как мы работаем</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="overlay.js"></script>
 </body>
 
 </html>

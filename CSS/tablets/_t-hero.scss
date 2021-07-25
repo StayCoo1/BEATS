@@ -4,6 +4,12 @@
   }
 }
 
+.overlay__menu {
+  @include tablets {
+    display: block;
+  }
+}
+
 .hero:after {
   @include tablets {
     background-color: #858585;
